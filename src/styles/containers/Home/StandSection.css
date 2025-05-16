@@ -1,0 +1,31 @@
+.stand_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: relative;
+    position: relative;
+}
+
+.stand_container .header_stand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.stand_container .header_stand .line_sec_2_stand{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.stand_container .header_stand .title_stand{
+    color:var(--primary);
+    font-size: 2rem;
+    text-transform: uppercase;
+}

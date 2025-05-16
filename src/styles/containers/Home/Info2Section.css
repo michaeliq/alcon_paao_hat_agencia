@@ -1,0 +1,57 @@
+.info_2_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.info_2_container .image_2_info_2{
+    width: 100%;
+    height: auto;
+}
+
+.info_2_container .title_info_2{
+    color: var(--btn-primary);
+    font-size: 1.5rem;
+    font-weight: var(--bold);
+}
+
+.info_2_container .data_info_2{
+    font-size: 1rem;
+    text-align: center;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+}
+
+.info_2_container .btn_info_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem auto;
+    background-color: var(--btn-primary);
+    padding: .2rem 3.5rem;
+    border-radius: 2rem;
+    color:#fff;
+    font-weight: var(--light);
+    font-size: 2rem;
+    font-weight: var(--bold);
+}
+
+.info_2_container .cvent_image_info_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.info_2_container .cvent_image{
+    width: 40%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}

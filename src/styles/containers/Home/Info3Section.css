@@ -1,0 +1,67 @@
+.info_3_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info_3_container .image_info_3{
+    width: 80%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.info_3_container .title_info_3{
+    color: var(--btn-primary);
+    font-size: 1.5rem;
+    font-weight: var(--light);
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.info_3_container .title_info_3 span{
+    font-weight: var(--bold);
+}
+
+.info_3_container .data_info_3{
+    font-size: 1rem;
+    text-align: center;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    padding: 0 2rem;
+}
+
+.info_3_container .btn_info_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem auto;
+    background-color: var(--btn-primary);
+    padding: .2rem 3.5rem;
+    border-radius: 2rem;
+    color:#fff;
+    font-weight: var(--light);
+    font-size: 2rem;
+    font-weight: var(--bold);
+}
+
+.info_3_container .cvent_image_info_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.info_3_container .cvent_image{
+    width: 40%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}

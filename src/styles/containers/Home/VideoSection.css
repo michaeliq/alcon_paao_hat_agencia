@@ -1,0 +1,28 @@
+.container_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:-10px;
+}
+
+.container_video .title_video{
+    color: var(--btn-primary);
+    font-size: 2rem;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+}
+
+.container_video .media_video{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    background-color: var(--btn-primary);
+    background-image: url("/images/background_video.webp");
+    background-position: center;
+    background-size: 100% 100%;
+}

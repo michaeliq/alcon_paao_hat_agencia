@@ -1,0 +1,121 @@
+.footer {
+    box-sizing: border-box;
+    background-image: url("images/fondo_footer.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    width: 101%;
+    min-height: 470px;
+    height: 470px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    padding: 2rem 0;
+}
+
+.container-logo-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 0;
+}
+
+
+.container-logo-brand {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container-logo-brand .logo-footer {
+    margin-bottom: 2.5rem;
+}
+
+.container-logo-brand .brand_footer {}
+
+.container-logo-brand .brand_footer h2 {
+    margin: 0 auto;
+    font-size: 3rem;
+    font-weight: var(--light);
+    line-height: 3.2rem;
+    letter-spacing: 0.3rem;
+    width: max-content;
+}
+
+.container-logo-brand .brand_footer h2 .underline {
+    width: 100%;
+    height: 2px;
+    margin-top: .2rem;
+    background-color: #fff;
+}
+
+.container-logo-brand .brand_footer p {
+    font-size: .7rem;
+}
+
+.container-logo-links .container-links {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.container-logo-links .container-links .list-links-footer {
+    padding: 0;
+    text-align: center;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+.container-logo-links .container-links .list-links-footer a {
+    color: #fff;
+}
+
+.list-links-footer {
+    list-style: none;
+
+}
+
+.footer-container .footer-copyright {
+    font-size: .8rem;
+}
+
+.footer-container .footer-copyright br {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+
+    .footer-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        padding: 2rem 0;
+    }
+}
