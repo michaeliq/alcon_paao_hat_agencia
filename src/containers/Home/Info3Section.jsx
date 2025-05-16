@@ -4,9 +4,7 @@ export function Info3Section() {
     return (
         <div className="info_3_container">
             <img src="/images/image_info_3.webp" alt="info 3 image" className="image_info_3" />
-            <h2 className="title_info_3">
-                Un gran resultado es aquel <span>que perdura</span>
-            </h2>
+            <img src="/images/copy_info_3.png" alt="info 3 image" className="copy_info_3" />
             <p className="data_info_3">
                 Encuentra una solución que respalda decisiones clínicas con evidencia sólida, alineada con las recomendaciones más exigentes en el manejo del glaucoma, para ofrecer resultados predecibles y de alto impacto.
             </p>
