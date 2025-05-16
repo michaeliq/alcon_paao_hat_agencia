@@ -7,6 +7,9 @@
     padding: 20px;
     width: 100%;
     height: auto;
+    background-image:url("/images/background_info_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .info_1_container .title_info_1{
