@@ -92,6 +92,10 @@
     color: #fff;
 }
 
+.footer-container .container-logo-links .footer-copyright {
+    display: none;
+}
+
 .list-links-footer {
     list-style: none;
 
