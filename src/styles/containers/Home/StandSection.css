@@ -29,3 +29,24 @@
     font-size: 2rem;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 800px) {
+
+    .stand_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: calc(100% - 90px);
+        width: 100%;
+        top: -10px;
+    }
+
+    .stand_container .header_stand .title_stand {
+        color: var(--btn-primary);
+        font-size: 4rem;
+        font-weight: var(--bold);
+        text-transform: uppercase;
+        margin: 2rem auto;
+    }
+}

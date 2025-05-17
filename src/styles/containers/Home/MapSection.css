@@ -35,3 +35,24 @@
     margin: 1rem auto;
     border: none;
 }
+
+@media screen and (min-width: 800px) {
+
+    .map_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: calc(100vh - 90px);
+        width: 100%;
+        top: -10px;
+    }
+
+    .map_container .header_map .title_map {
+        color: var(--btn-primary);
+        font-size: 4rem;
+        font-weight: var(--bold);
+        text-transform: uppercase;
+        margin: 2rem auto;
+    }
+}

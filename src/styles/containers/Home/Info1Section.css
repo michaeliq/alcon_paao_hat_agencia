@@ -1,5 +1,4 @@
-
-.info_1_container{
+.info_1_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,23 +6,23 @@
     padding: 20px;
     width: 100%;
     height: auto;
-    background-image:url("/images/background_info_1.png");
+    background-image: url("/images/background_info_1.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.info_1_container .title_info_1{
+.info_1_container .title_info_1 {
     font-size: 1.2rem;
     text-align: center;
     font-weight: var(--light);
-    color:var(--primary);
+    color: var(--primary);
 }
 
-.info_1_container .title_info_1 span{
+.info_1_container .title_info_1 span {
     font-weight: var(--medium);
 }
 
-.info_1_container .cta_info_1{
+.info_1_container .cta_info_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,15 +33,19 @@
     background-color: var(--btn-secondary);
     padding: .5rem 1rem;
     border-radius: 2rem;
-    color:#fff;
+    color: #fff;
     font-weight: var(--light);
 }
 
-.info_1_container .cta_info_1 span{
+.info_1_container .cta_info_1.desktop {
+    display: none;
+}
+
+.info_1_container .cta_info_1 span {
     font-weight: var(--medium);
 }
 
-.info_1_container .image_container_info_1{
+.info_1_container .image_container_info_1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +54,7 @@
     height: auto;
 }
 
-.info_1_container .image_container_info_1 .people_image_info_1{
+.info_1_container .image_container_info_1 .people_image_info_1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -59,20 +62,20 @@
     margin-top: 2rem;
 }
 
-.info_1_container .image_container_info_1 .people_image_info_1 img{
+.info_1_container .image_container_info_1 .people_image_info_1 img {
     flex: 1;
     width: 25%;
     height: auto;
 }
 
-.info_1_container .image_container_info_1 .people_image_info_1 img.image_1_info_1{
+.info_1_container .image_container_info_1 .people_image_info_1 img.image_1_info_1 {
     flex: 1;
     width: 40%;
     height: auto;
     margin-bottom: 1rem;
 }
 
-.info_1_container .image_container_info_1 .dr_image_info_1{
+.info_1_container .image_container_info_1 .dr_image_info_1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,37 +86,41 @@
     margin-top: 4rem;
 }
 
-.info_1_container .image_container_info_1 .dr_image_info_1 .image_2_info_1{
+.info_1_container .image_container_info_1 .dr_image_info_1 .image_2_info_1 {
     width: 80%;
     height: auto;
     position: relative;
 }
 
-.info_1_container .image_container_info_1 .dr_image_info_1 .image_3_info_1{
+.info_1_container .image_container_info_1 .dr_image_info_1 .image_3_info_1 {
     position: absolute;
     width: 110%;
     height: auto;
     margin: auto 0;
 }
 
-.info_1_container .subtitle_info_1{
+.info_1_container .image_container_info_1 .dr_image_info_1 .copy_container_info_1 {
+    display: none;
+}
+
+.info_1_container .subtitle_info_1 {
     font-size: 1.5rem;
     text-align: center;
     font-weight: var(--light);
-    color:var(--primary);
-    margin:1.5rem auto;
+    color: var(--primary);
+    margin: 1.5rem auto;
 }
 
-.info_1_container .subtitle_info_1 span{
+.info_1_container .subtitle_info_1 span {
     font-weight: var(--bold);
 }
 
-.info_1_container .data_info_1{
+.info_1_container .data_info_1 {
     font-size: 1rem;
     text-align: center;
 }
 
-.info_1_container .btn_info_1{
+.info_1_container .btn_info_1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,13 +128,13 @@
     background-color: var(--btn-primary);
     padding: .2rem 3.5rem;
     border-radius: 2rem;
-    color:#fff;
+    color: #fff;
     font-weight: var(--light);
     font-size: 2rem;
     font-weight: var(--bold);
 }
 
-.info_1_container .cvent_image_info_1{
+.info_1_container .cvent_image_info_1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,9 +143,119 @@
     position: relative;
 }
 
-.info_1_container .cvent_image{
+.info_1_container .cvent_image {
     width: 40%;
     height: auto;
     position: relative;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+
+    .info_1_container .title_info_1 {
+        font-size: 1.7rem;
+    }
+
+    .info_1_container .title_info_1 br {
+        display: none;
+    }
+
+    .info_1_container .title_info_1 span {
+        font-weight: var(--light);
+    }
+
+    .info_1_container .cta_info_1.mobile {
+        display: none;
+    }
+
+    .info_1_container .cta_info_1.desktop {
+        display: flex;
+        font-size: 1.2rem;
+        padding: .5rem 2rem;
+        border-radius: 40px;
+    }
+
+    .info_1_container .image_container_info_1 .people_image_info_1 {
+        column-gap: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    .info_1_container .image_container_info_1 .people_image_info_1 img {
+        width: 150px;
+        height: auto;
+
+    }
+
+    .info_1_container .image_container_info_1 .people_image_info_1 img.image_1_info_1 {
+        flex: 1;
+        width: 150px;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .info_1_container .image_container_info_1 .dr_image_info_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 3rem;
+    }
+
+    .info_1_container .image_container_info_1 .dr_image_info_1 .image_2_info_1 {
+        width: 40%;
+        max-width: 500px;
+        height: auto;
+        position: relative;
+    }
+
+    .info_1_container .image_container_info_1 .dr_image_info_1 .copy_container_info_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 30%;
+    }
+
+    .info_1_container .image_container_info_1 .dr_image_info_1 .image_3_info_1{
+        content: url("/images/circle_desktop.png");
+        width: 103%;
+        z-index: 1;
+    }
+
+    .info_1_container .copy_container_info_1 .subtitle_info_1 {
+        font-size: 1.5rem;
+        text-align: left;
+        font-weight: var(--regular);
+        color: var(--primary);
+        margin: 0px;
+    }
+
+    .info_1_container .copy_container_info_1 .data_info_1 {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .info_1_container .btn_info_1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        font-size: 1.3rem;
+        padding: .3rem 1.4rem;
+    }
+
+    .info_1_container .copy_container_info_1 .btn_logo_container_copy_info_1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .info_1_container .cvent_image_info_1 img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .info_1_container .copy_container_info_1 {
+        display: none;
+    }
+
 }

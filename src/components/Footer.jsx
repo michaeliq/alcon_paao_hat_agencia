@@ -10,7 +10,7 @@ export function Footer() {
                         <div className="brand_footer">
                             <h2>
                                 PAAO 2025
-                            <div className="underline"></div>
+                                <div className="underline"></div>
                             </h2>
                             <p>Pan-American Association of Ophthalomolgy</p>
                         </div>
@@ -20,10 +20,13 @@ export function Footer() {
                             <li className="items-list-footer"><a href="#stand_section">Nuestro Stand</a></li>
                             <li className="items-list-footer"><a href="#map_section">Cómo llegar</a></li>
                         </ul>
+                        <div className="footer-copyright">
+                            Material elaborado y distribuido por Laboratorios Alcon de Colombia S.A <br />CO-SG-2500019
+                        </div>
                     </div>
                 </div>
                 <div className="footer-copyright">
-                    Material elaborado y distribuido por Laboratorios Alcon de Colombia S.A <br/>CO-SG-2500019
+                    Material elaborado y distribuido por Laboratorios Alcon de Colombia S.A <br />CO-SG-2500019
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-.crono_container{
+.crono_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,7 @@
     margin-top: .3rem;
 }
 
-.crono_container .title_crono{
+.crono_container .title_crono {
     font-size: 2rem;
     color: #fff;
     text-align: center;
@@ -21,7 +21,7 @@
     text-shadow: 3px 1px 5px #0007;
 }
 
-.crono_container .content_crono{
+.crono_container .content_crono {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,14 +31,14 @@
     column-gap: 2rem;
 }
 
-.crono_container .content_crono .item_container_crono{
+.crono_container .content_crono .item_container_crono {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.crono_container .content_crono .item_crono{
+.crono_container .content_crono .item_crono {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@
     background: linear-gradient(90deg, var(--btn-primary) 0%, var(--btn-secondary) 70%);
 }
 
-.crono_container .content_crono .item_crono span{
+.crono_container .content_crono .item_crono span {
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -60,11 +60,46 @@
     font-weight: var(--bold);
 }
 
-.crono_container .content_crono .item_container_crono p{
-    color:#fff;
+.crono_container .content_crono .item_container_crono p {
+    color: #fff;
     margin: 1rem auto;
     text-transform: uppercase;
     font-size: .7rem;
     font-weight: var(--bold);
 }
 
+@media screen and (min-width: 800px) {
+    .crono_container .title_crono {
+        font-size: 4rem;
+    }
+
+    .crono_container .content_crono {
+        column-gap: 5rem;
+    }
+
+    .crono_container .content_crono .item_crono {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 120px;
+        background-color: #fff;
+    }
+
+    .crono_container .content_crono .item_crono span {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+        color: var(--btn-secondary);
+        font-size: 2rem;
+        font-weight: var(--bold);
+    }
+
+    .crono_container .content_crono .item_container_crono p {
+        font-size: 1.2rem;
+    }
+
+}
