@@ -11,9 +11,24 @@ export function Info1Section() {
             </div>
             <div className="image_container_info_1">
                 <div className="people_image_info_1">
-                    <img src="/images/image_1_5_info_1.webp" alt="Info 1" className="image_1_5_info_1" />
-                    <img src="/images/image_1_info_1.webp" alt="Info 1" className="image_1_info_1" />
-                    <img src="/images/image_1_5_info_1.webp" alt="Info 1" className="image_1_5_info_1" />
+                    <div className="imagen_content_info_1">
+                        <img src="/images/dr_ivo_ferreira.webp" alt="Info 1" className="image_1_5_info_1" />
+                        <p className="legend_image_info_1">
+                            Speaker Internacional <br /> <span>Dr. Ivo Ferreira</span>
+                        </p>
+                    </div>
+                    <div className="imagen_content_info_1">
+                        <img src="/images/dr_ivan_ossma.webp" alt="Info 1" className="image_1_info_1" />
+                        <p className="legend_image_info_1">
+                            Speaker Nacional <br /> <span>Dr. Ivan Ossma</span>
+                        </p>
+                    </div>
+                    <div className="imagen_content_info_1">
+                        <img src="/images/dra_ximena_nunez.webp" alt="Info 1" className="image_1_5_info_1" />
+                        <p className="legend_image_info_1">
+                            Speaker Nacional <br /> <span>Dr. Ximena Nuñez</span>
+                        </p>
+                    </div>
                 </div>
                 <div className="cta_info_1 desktop">
                     Contaremos con la participación de destacados <span>speakers internacionales y nacionales</span>

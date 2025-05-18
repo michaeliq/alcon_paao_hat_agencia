@@ -50,4 +50,8 @@
         text-transform: uppercase;
         margin: 2rem auto;
     }
+
+    .container_video .media_video {
+        height: 90vh;
+    }
 }

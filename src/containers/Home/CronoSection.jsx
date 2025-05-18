@@ -8,7 +8,7 @@ export function CronoSection() {
     const [seconds, setSeconds] = useState(0);
 
     useEffect(() => {
-        const countdownDate = new Date("2025-06-01T00:00:00").getTime();
+        const countdownDate = new Date("2025-05-30T00:00:00").getTime();
 
         const interval = setInterval(() => {
             const now = new Date().getTime();

@@ -7,7 +7,8 @@ export function VideoSection() {
             <h2 className="title_video">
                 video
             </h2>
-            <video src="https://youtu.be/ViotnARQIw4?si=b-DmAzsopQ9UQIlR" className="media_video">
+            <video controls="controls" className="media_video">
+                <source src="/videos/Elevate_Alcon_short_version_subtitulos.mp4" type="video/mp4" />
                 Tu navegador no admite el elemento <code>video</code>.
             </video>
         </div>

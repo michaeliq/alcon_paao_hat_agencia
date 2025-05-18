@@ -1,26 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import { use, useEffect, useState } from 'react';
-
-const useWindowDimensions = () => {
-    const [windowDimensions, setWindowDimensions] = useState({
-        width: window.innerWidth,
-        height: window.innerHeight,
-    });
-
-    useEffect(() => {
-        const handleResize = () => {
-            setWindowDimensions({
-                width: window.innerWidth,
-                height: window.innerHeight,
-            });
-        }
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    },[])
-
-    return windowDimensions;
-}
+import { useEffect, useState } from 'react';
+import { useWindowDimensions } from "../helpers/getWindowDimensions";
 
 export function CustomCarousel(props) {
 

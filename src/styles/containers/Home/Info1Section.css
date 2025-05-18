@@ -8,7 +8,6 @@
     height: auto;
     background-image: url("/images/background_info_1.png");
     background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .info_1_container .title_info_1 {
@@ -57,22 +56,35 @@
 .info_1_container .image_container_info_1 .people_image_info_1 {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
     column-gap: 2rem;
     margin-top: 2rem;
 }
 
-.info_1_container .image_container_info_1 .people_image_info_1 img {
-    flex: 1;
-    width: 25%;
-    height: auto;
+.info_1_container .image_container_info_1 .people_image_info_1 .imagen_content_info_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.info_1_container .image_container_info_1 .people_image_info_1 img.image_1_info_1 {
+.info_1_container .image_container_info_1 .people_image_info_1 img {
     flex: 1;
     width: 40%;
     height: auto;
-    margin-bottom: 1rem;
+}
+
+.info_1_container .image_container_info_1 .people_image_info_1 .imagen_content_info_1 .legend_image_info_1{
+    color: var(--primary);
+    font-size: 1.2rem;
+    text-align: center;
+    font-size: var(--regular);
+}
+
+.info_1_container .image_container_info_1 .people_image_info_1 .imagen_content_info_1 .legend_image_info_1 span{
+    font-weight: var(--bold);
+    font-size: 1.4rem;
 }
 
 .info_1_container .image_container_info_1 .dr_image_info_1 {
@@ -178,6 +190,7 @@
     .info_1_container .image_container_info_1 .people_image_info_1 {
         column-gap: 6rem;
         margin-bottom: 2rem;
+        flex-direction: row;
     }
 
     .info_1_container .image_container_info_1 .people_image_info_1 img {

@@ -27,4 +27,7 @@
     .hero-banner .hero_image_4 {
         content: url("/images/hero_banner_desktop_4.webp");
     }
+    .hero-banner div.desktop-hidden {
+        display: none;
+    }
 }
