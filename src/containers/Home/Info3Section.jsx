@@ -14,7 +14,9 @@ export function Info3Section() {
                         Encuentra una solución que respalda decisiones clínicas con evidencia sólida, alineada con las recomendaciones más exigentes en el manejo del glaucoma, para ofrecer resultados predecibles y de alto impacto.
                     </p>
                     <div className="btn_logo_container_copy_info_2">
-                        <button className="btn_info_3">
+                        <button className="btn_info_3" onClick={()=>{
+                    window.open('https://cvent.me/3MvEDK', '_blank');
+                }}>
                             Registro
                         </button>
                         <div className="cvent_image_info_3">

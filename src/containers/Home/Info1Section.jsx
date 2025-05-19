@@ -6,9 +6,7 @@ export function Info1Section() {
             <h2 className="title_info_1">
                 Visite los espacios que tendremos en <br /><span>el 3er y 5to piso del congreso</span>
             </h2>
-            <div className="cta_info_1 mobile">
-                Contaremos con la participación de destacados <span>speakers internacionales y nacionales</span>
-            </div>
+
             <div className="image_container_info_1">
                 <div className="people_image_info_1">
                     <div className="imagen_content_info_1">
@@ -30,6 +28,9 @@ export function Info1Section() {
                         </p>
                     </div>
                 </div>
+                <div className="cta_info_1 mobile">
+                    Contaremos con la participación de destacados <span>speakers internacionales y nacionales</span>
+                </div>
                 <div className="cta_info_1 desktop">
                     Contaremos con la participación de destacados <span>speakers internacionales y nacionales</span>
                 </div>
@@ -37,10 +38,10 @@ export function Info1Section() {
                     <img src="/images/woman-dr.webp" alt="Info 2" className="image_2_info_1" />
                     <div className="copy_container_info_1">
                         <h3 className="subtitle_info_1">
-                            <span>Planificación<br /> </span>quirúrgica sin errores
+                            <span>Alcon Vision Suite</span>
                         </h3>
                         <p className="data_info_1">
-                            Conoce una innovadora solución que permite enviar planes quirúrgicos directamente al sistema de navegación, eliminando errores de transcripción y facilitando una ejecución precisa y guiada por imágenes.
+                            Representa el ecosistema integrado de Alcon diseñado para potenciar la práctica del cirujano oftalmólogo al reunir la suite de quirófano más completa de la industria con diagnósticos clínicos, soluciones digitales, además de capacitación y servicios de primera clase.
                         </p>
                         <div className="btn_logo_container_copy_info_1">
                             <button className="btn_info_1">
@@ -56,12 +57,14 @@ export function Info1Section() {
             </div>
             <div className="copy_container_info_1">
                 <h3 className="subtitle_info_1">
-                    <span>Planificación<br /> </span>quirúrgica sin errores
+                    <span>Alcon Vision Suite</span>
                 </h3>
                 <p className="data_info_1">
-                    Conoce una innovadora solución que permite enviar planes quirúrgicos directamente al sistema de navegación, eliminando errores de transcripción y facilitando una ejecución precisa y guiada por imágenes.
+                    Representa el ecosistema integrado de Alcon diseñado para potenciar la práctica del cirujano oftalmólogo al reunir la suite de quirófano más completa de la industria con diagnósticos clínicos, soluciones digitales, además de capacitación y servicios de primera clase.
                 </p>
-                <button className="btn_info_1">
+                <button className="btn_info_1" onClick={()=>{
+                    window.open('https://cvent.me/RXdK97', '_blank');
+                }}>
                     Registro
                 </button>
                 <div className="cvent_image_info_1">

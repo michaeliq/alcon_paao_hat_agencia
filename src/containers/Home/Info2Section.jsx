@@ -15,7 +15,9 @@ export function Info2Section() {
                             Solución avanzada permite personalizar el perfil de ablación de cada paciente con un nivel de precisión comparable a la alta costura: utilizando datos biométricos, tomografía y frente de onda para planificar tratamientos únicos con resultados visuales excepcionales.
                         </p>
                     <div className="btn_logo_container_copy_info_2">
-                        <button className="btn_info_2">
+                        <button className="btn_info_2" onClick={()=>{
+                    window.open('https://cvent.me/7Ma8XR', '_blank');
+                }}>
                             Registro
                         </button>
                         <div className="cvent_image_info_2">
