@@ -14,14 +14,6 @@ export function Info4Section() {
                         <p className="data_info_4">
                             Nuestros lentes ofrecen los últimos avances en materiales con más de 20 años de innovación continua de LIO.
                         </p>
-                    <div className="btn_logo_container_copy_info_4">
-                        <button className="btn_info_4">
-                            Registro
-                        </button>
-                        <div className="cvent_image_info_4">
-                            <img src="/images/cvent_logo.webp" alt="Cvent" className="cvent_image" />
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ export function HeroBanner() {
             class: "hero_image_1"
         },
         {
-            image: "/images/banner_2.png",
+            image: "/images/banner_2.webp",
             class: "hero_image_2"
         },
         {
