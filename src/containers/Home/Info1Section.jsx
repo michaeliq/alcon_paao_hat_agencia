@@ -16,15 +16,21 @@ export function Info1Section() {
                         </p>
                     </div>
                     <div className="imagen_content_info_1">
-                        <img src="/images/dr_ivan_ossma.webp" alt="Info 1" className="image_1_info_1" />
-                        <p className="legend_image_info_1">
+                        <img src="/images/image_1_5_info_1.webp" alt="Info 1" className="image_1_info_1" />
+                        {/* <p className="legend_image_info_1">
                             Speaker Nacional <br /> <span>Dr. Ivan Ossma</span>
+                        </p> */}
+                        <p className="legend_image_info_1">
+                            Próximamente <br /> <span>...</span>
                         </p>
                     </div>
                     <div className="imagen_content_info_1">
-                        <img src="/images/dra_ximena_nunez.webp" alt="Info 1" className="image_1_5_info_1" />
-                        <p className="legend_image_info_1">
+                        <img src="/images/image_1_5_info_1.webp" alt="Info 1" className="image_1_5_info_1" />
+                        {/* <p className="legend_image_info_1">
                             Speaker Nacional <br /> <span>Dr. Ximena Nuñez</span>
+                        </p> */}
+                        <p className="legend_image_info_1">
+                            Próximamente <br /> <span>...</span>
                         </p>
                     </div>
                 </div>

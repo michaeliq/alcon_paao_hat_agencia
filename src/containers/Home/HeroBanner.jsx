@@ -34,8 +34,10 @@ export function HeroBanner() {
         if (width < 800) {
             setImages(array_image)
         } else {
-            array_image.pop()
-            setImages(array_image)
+            if (array_image[array_image.length - 1]?.class == "hero_image_5"){
+                array_image.pop()
+                setImages(array_image)
+            }
         }
     },[width])
     return (
