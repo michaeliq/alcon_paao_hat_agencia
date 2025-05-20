@@ -8,8 +8,10 @@ export function Header() {
     };
 
     return (
-        <header className="header">
-            <img src="/images/logo_alcon.webp" alt="Logo Alcon" className="logo-header" />
+        <header className="header" id="header">
+            <a href="/">
+                <img src="/images/logo_alcon.webp" alt="Logo Alcon" className="logo-header" />
+            </a>
             <img className="btn-hamburguer-header" onClick={toggleMenu} src="/images/icono-menu-hamburguesa.webp" alt="menu hamburguesa" />
             <nav className={`nav-header ${menuOpen ? "open" : ""}`}>
                 <div className="btn-close-header" onClick={toggleMenu}>X</div>
