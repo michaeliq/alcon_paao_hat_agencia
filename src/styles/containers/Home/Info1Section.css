@@ -75,14 +75,14 @@
     height: auto;
 }
 
-.info_1_container .image_container_info_1 .people_image_info_1 .imagen_content_info_1 .legend_image_info_1{
+.info_1_container .image_container_info_1 .people_image_info_1 .imagen_content_info_1 .legend_image_info_1 {
     color: var(--primary);
     font-size: 1.2rem;
     text-align: center;
     font-size: var(--regular);
 }
 
-.info_1_container .image_container_info_1 .people_image_info_1 .imagen_content_info_1 .legend_image_info_1 span{
+.info_1_container .image_container_info_1 .people_image_info_1 .imagen_content_info_1 .legend_image_info_1 span {
     font-weight: var(--bold);
     font-size: 1.4rem;
 }
@@ -189,14 +189,16 @@
 
     .info_1_container .image_container_info_1 .people_image_info_1 {
         column-gap: 6rem;
+        row-gap: 2rem;
         margin-bottom: 2rem;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     .info_1_container .image_container_info_1 .people_image_info_1 img {
         width: 150px;
         height: auto;
-
     }
 
     .info_1_container .image_container_info_1 .people_image_info_1 img.image_1_info_1 {
@@ -220,16 +222,23 @@
         position: relative;
     }
 
+    .info_1_container .image_container_info_1 .people_image_info_1 .imagen_content_info_1 .legend_image_info_1 {
+        background-color: rgb(240,240,240);
+    }
+
     .info_1_container .image_container_info_1 .dr_image_info_1 .copy_container_info_1 {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         width: 30%;
+        position: relative;
+        z-index: 10;
     }
 
-    .info_1_container .image_container_info_1 .dr_image_info_1 .image_3_info_1{
+    .info_1_container .image_container_info_1 .dr_image_info_1 .image_3_info_1 {
         content: url("/images/circle_desktop.png");
         width: 103%;
+        height: auto;
         z-index: 1;
     }
 
@@ -255,7 +264,7 @@
         padding: .3rem 1.4rem;
     }
 
-    .info_1_container .copy_container_info_1 .btn_logo_container_copy_info_1{
+    .info_1_container .copy_container_info_1 .btn_logo_container_copy_info_1 {
         display: flex;
         align-items: center;
         justify-content: flex-start;

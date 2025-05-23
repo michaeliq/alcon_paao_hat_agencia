@@ -10,27 +10,27 @@ export function Info1Section() {
             <div className="image_container_info_1">
                 <div className="people_image_info_1">
                     <div className="imagen_content_info_1">
-                        <img src="/images/dr_ivo_ferreira.webp" alt="Info 1" className="image_1_5_info_1" />
+                        <img src="/images/dr_ivo_ferreira.webp" alt="Dr. Ivo Ferreira" className="image_1_5_info_1" />
                         <p className="legend_image_info_1">
                             Speaker Internacional <br /> <span>Dr. Ivo Ferreira</span>
                         </p>
                     </div>
                     <div className="imagen_content_info_1">
-                        <img src="/images/image_1_5_info_1.webp" alt="Info 1" className="image_1_info_1" />
-                        {/* <p className="legend_image_info_1">
-                            Speaker Nacional <br /> <span>Dr. Ivan Ossma</span>
-                        </p> */}
+                        <img src="/images/dr_ivan_ossma.webp" alt="Dr. Ivan Ossma" className="image_1_info_1" />
                         <p className="legend_image_info_1">
-                            Próximamente <br /> <span>...</span>
+                            Speaker Nacional <br /> <span>Dr. Ivan Ossma</span>
                         </p>
                     </div>
                     <div className="imagen_content_info_1">
-                        <img src="/images/image_1_5_info_1.webp" alt="Info 1" className="image_1_5_info_1" />
-                        {/* <p className="legend_image_info_1">
-                            Speaker Nacional <br /> <span>Dr. Ximena Nuñez</span>
-                        </p> */}
+                        <img src="/images/dra_ximena_nunez.webp" alt="Dra. Ximena Nuñez" className="image_1_5_info_1" />
                         <p className="legend_image_info_1">
-                            Próximamente <br /> <span>...</span>
+                            Speaker Nacional <br /> <span>Dra. Ximena Nuñez</span>
+                        </p>
+                    </div>
+                    <div className="imagen_content_info_1">
+                        <img src="/images/dr_alberto_haber.webp" alt="Dr. Alberto Haber" className="image_1_5_info_1" />
+                        <p className="legend_image_info_1">
+                            Speaker Internacional <br /> <span>Dr. Alberto Haber</span>
                         </p>
                     </div>
                 </div>
@@ -50,7 +50,9 @@ export function Info1Section() {
                             Representa el ecosistema integrado de Alcon diseñado para potenciar la práctica del cirujano oftalmólogo al reunir la suite de quirófano más completa de la industria con diagnósticos clínicos, soluciones digitales, además de capacitación y servicios de primera clase.
                         </p>
                         <div className="btn_logo_container_copy_info_1">
-                            <button className="btn_info_1">
+                            <button className="btn_info_1" onClick={() => {
+                                window.open('https://cvent.me/RXdK97', '_blank');
+                            }}>
                                 Registro
                             </button>
                             <div className="cvent_image_info_1">
@@ -68,7 +70,7 @@ export function Info1Section() {
                 <p className="data_info_1">
                     Representa el ecosistema integrado de Alcon diseñado para potenciar la práctica del cirujano oftalmólogo al reunir la suite de quirófano más completa de la industria con diagnósticos clínicos, soluciones digitales, además de capacitación y servicios de primera clase.
                 </p>
-                <button className="btn_info_1" onClick={()=>{
+                <button className="btn_info_1" onClick={() => {
                     window.open('https://cvent.me/RXdK97', '_blank');
                 }}>
                     Registro
